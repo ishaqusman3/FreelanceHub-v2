@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import 'line-awesome/css/line-awesome.min.css'; */
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%; /* Ensures full viewport height */
+  }
+/* Feature card styling */
+.feature-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
